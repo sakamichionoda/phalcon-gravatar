@@ -8,6 +8,7 @@
 <form method="post">
 
     <input type="email" name="email"/>
+    <input type="submit" value="submit">
 
 </form>
 </body>
