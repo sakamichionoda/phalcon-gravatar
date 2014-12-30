@@ -1,7 +1,9 @@
 <?php
+include "../version/1.0.0/Gravatar.php";
+
 if(!empty($_POST['email'])){
     $email = $_POST['email'];
-    die($email);
+$gravatar->getAvatar($email,'identicon');
 
 }
 
